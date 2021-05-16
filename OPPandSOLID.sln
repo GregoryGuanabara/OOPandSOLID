@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decoupling_Code", "Decoupling_Code\Decoupling_Code.csproj", "{AE5CC857-A377-463C-BB93-53C3350D07C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism_Sample", "Polymorphism_Sample\Polymorphism_Sample.csproj", "{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_Sample", "Polymorphism_Sample\Polymorphism_Sample.csproj", "{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple", "{5656F295-F335-49E1-B5AA-7DABAE1299DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Violation", "SingleResponsibilityPrinciple\Violation\Violation.csproj", "{E56794C0-F9D4-4F97-B3EF-36F628137703}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adherent", "SingleResponsibilityPrinciple\Adherent\Adherent.csproj", "{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,21 @@ Global
 		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E56794C0-F9D4-4F97-B3EF-36F628137703} = {5656F295-F335-49E1-B5AA-7DABAE1299DF}
+		{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900} = {5656F295-F335-49E1-B5AA-7DABAE1299DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F401E4F6-E395-4DFB-8B3F-4CB880A2559E}
