@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net.Mail;
 
-namespace Single_Responsibility_Principle.Problem
+namespace SRP.Violation
 {
     public class Order
     {

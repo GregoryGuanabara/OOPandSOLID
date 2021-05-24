@@ -1,4 +1,4 @@
-﻿namespace Adherent
+﻿namespace SRP.Adherent
 {
     public interface ILogger
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Single_Responsibility_Principle
+namespace SRP.Violation
 {
     class Program
     {
