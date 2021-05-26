@@ -3,21 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decoupling_Code", "Decoupling_Code\Decoupling_Code.csproj", "{AE5CC857-A377-463C-BB93-53C3350D07C2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_Sample", "Polymorphism_Sample\Polymorphism_Sample.csproj", "{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple", "{5656F295-F335-49E1-B5AA-7DABAE1299DF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - SingleResponsibilityPrinciple", "1 - SingleResponsibilityPrinciple", "{5656F295-F335-49E1-B5AA-7DABAE1299DF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP.Violation", "SingleResponsibilityPrinciple\Violation\SRP.Violation.csproj", "{E56794C0-F9D4-4F97-B3EF-36F628137703}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP.Adherent", "SingleResponsibilityPrinciple\Adherent\SRP.Adherent.csproj", "{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenClosedPrinciple", "OpenClosedPrinciple", "{8C0CB12F-0BF8-4DB1-8C97-6834F147BACD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - OpenClosedPrinciple", "2 - OpenClosedPrinciple", "{8C0CB12F-0BF8-4DB1-8C97-6834F147BACD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP.Adherent", "OpenClosedPrinciple\OCP.Adherent\OCP.Adherent.csproj", "{C19FCA09-8908-4A57-A07C-40317F5C829C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP.Violation", "OpenClosedPrinciple\OCP.Violation\OCP.Violation.csproj", "{D35E8556-960D-4809-9E71-18855A9E72EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - LiskovSubstitutionPrinciple", "3 - LiskovSubstitutionPrinciple", "{5A85BE34-CCC3-4768-8722-FE4F36F8B4E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPSamples", "OOPSamples", "{063EFFD2-A0A6-4B58-BF38-7E2C20A90EB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decoupling_Code", "OOPSamples\Decoupling_Code\Decoupling_Code.csproj", "{C7C735C5-FC4C-499A-A8C8-46E7F3BC19EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_Sample", "OOPSamples\Polymorphism_Sample\Polymorphism_Sample.csproj", "{7BF7FE8C-FE32-42A1-A0FF-C4B48CCAA103}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP.Violation", "LiskovSubstitutionPrinciple\LSP.Violation\LSP.Violation.csproj", "{3946AB8A-7C27-474C-A4A9-B5DC7A695CD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - InterfaceSegregationPrinciple", "4 - InterfaceSegregationPrinciple", "{2295229F-BFCE-4D19-8FAA-C4EBC3C2AEC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - DependencyInversionPrinciple", "5 - DependencyInversionPrinciple", "{D42D3C7C-A9E0-4A90-AC20-500568E78657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE5CC857-A377-463C-BB93-53C3350D07C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE5CC857-A377-463C-BB93-53C3350D07C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE5CC857-A377-463C-BB93-53C3350D07C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE5CC857-A377-463C-BB93-53C3350D07C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26E5B15C-F06B-4DA3-8290-3B4B143ABB41}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56794C0-F9D4-4F97-B3EF-36F628137703}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,6 +51,18 @@ Global
 		{D35E8556-960D-4809-9E71-18855A9E72EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D35E8556-960D-4809-9E71-18855A9E72EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D35E8556-960D-4809-9E71-18855A9E72EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C735C5-FC4C-499A-A8C8-46E7F3BC19EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C735C5-FC4C-499A-A8C8-46E7F3BC19EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C735C5-FC4C-499A-A8C8-46E7F3BC19EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C735C5-FC4C-499A-A8C8-46E7F3BC19EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF7FE8C-FE32-42A1-A0FF-C4B48CCAA103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF7FE8C-FE32-42A1-A0FF-C4B48CCAA103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF7FE8C-FE32-42A1-A0FF-C4B48CCAA103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF7FE8C-FE32-42A1-A0FF-C4B48CCAA103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3946AB8A-7C27-474C-A4A9-B5DC7A695CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3946AB8A-7C27-474C-A4A9-B5DC7A695CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3946AB8A-7C27-474C-A4A9-B5DC7A695CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3946AB8A-7C27-474C-A4A9-B5DC7A695CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +72,9 @@ Global
 		{9BB14F37-C985-4BC6-ADBC-FA0C0E3AF900} = {5656F295-F335-49E1-B5AA-7DABAE1299DF}
 		{C19FCA09-8908-4A57-A07C-40317F5C829C} = {8C0CB12F-0BF8-4DB1-8C97-6834F147BACD}
 		{D35E8556-960D-4809-9E71-18855A9E72EA} = {8C0CB12F-0BF8-4DB1-8C97-6834F147BACD}
+		{C7C735C5-FC4C-499A-A8C8-46E7F3BC19EA} = {063EFFD2-A0A6-4B58-BF38-7E2C20A90EB9}
+		{7BF7FE8C-FE32-42A1-A0FF-C4B48CCAA103} = {063EFFD2-A0A6-4B58-BF38-7E2C20A90EB9}
+		{3946AB8A-7C27-474C-A4A9-B5DC7A695CD1} = {5A85BE34-CCC3-4768-8722-FE4F36F8B4E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F401E4F6-E395-4DFB-8B3F-4CB880A2559E}
